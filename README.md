@@ -15,4 +15,4 @@ PackerInstall
 PackerSync
 
 ### Problems
-nvim-comment doesn't work in windows
+nvim-comment doesn't work in windows tpope/vim-commentary works
