@@ -14,4 +14,14 @@ return require('packer').startup(function()
 }
   use 'windwp/nvim-autopairs'
   use {'terrortylor/nvim-comment', config = require('comment-config')}
+  use {
+    'neovim/nvim-lspconfig',
+    'williamboman/nvim-lsp-installer',
+}
+  use {"folke/which-key.nvim"}
+    use 'hrsh7th/cmp-nvim-lsp'
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/cmp-path'
+    use 'hrsh7th/cmp-cmdline'
+    use 'hrsh7th/nvim-cmp'
 end)

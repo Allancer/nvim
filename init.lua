@@ -1,9 +1,12 @@
 require('plugins')
 require('options')
 require('keybindings')
+require('whichkey-config')
 require('treesitter-config')
 require('bufferline-config')
 require('nvim-tree-config')
 require('autopairs-config')
+require('cmp-config')
+require('lsp')
 
 vim.cmd('colorscheme gruvqueen')
