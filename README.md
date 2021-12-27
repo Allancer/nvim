@@ -13,3 +13,6 @@ git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data
 
 PackerInstall
 PackerSync
+
+### Problems
+nvim-comment doesn't work in windows tpope/vim-commentary works
